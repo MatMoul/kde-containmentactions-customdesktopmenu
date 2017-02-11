@@ -1,0 +1,40 @@
+1. Building
+
+You need KDE SC 4.4 installed with complete development/header files. This
+means installed make, cmake, and g++ compiler, as well as kdelibs5-devel
+packages. Please refer to your distributions forum for exact package names.
+
+To build, type the following commands in Konsole:
+
+    cd containmentaction-desktopcustommenu-
+    mkdir build
+    cd build
+    cmake -DCMAKE_INSTALL_PREFIX=`kde4-config --prefix` ..
+    make
+
+
+2. Installing
+
+To install, you need root password:
+
+    sudo make install
+
+
+3. Restart KDE
+
+Before being able to use the plugin, you need to restart KDE.
+
+
+4. Configuration
+
+After restart, click on desktop with right mouse button, and select "Desktop
+Settings". Choose symbol "Mouse Actions" in the settings dialog, and click
+"Add Action..." button. Then click on this button "Input Here..." with the
+mouse button that should invoke the custom menu (I use right button and 
+ctrl+right for default menu).
+
+Then in the combobox next to this button select the "Custom Menu", and
+hit OK. You should now be able to invoke the custom menu by clicking on
+the desktop with the button you specified in the settings dialog.
+
+To change the entries that are visible in the menu, use the settings icon.

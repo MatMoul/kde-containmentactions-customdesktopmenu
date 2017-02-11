@@ -1,0 +1,19 @@
+[Desktop Entry]
+Name=Custom Menu
+Type=Service
+Icon=preferences-plugin-script
+Comment=Custom Menu for right click on desktop
+
+ServiceTypes=Plasma/ContainmentActions
+
+X-KDE-Library=plasma_containmentactions_desktopcustommenu
+X-KDE-PluginInfo-Author=MatMoul
+X-KDE-PluginInfo-Email=
+X-KDE-PluginInfo-Name=desktopcustommenu
+X-KDE-PluginInfo-Version=0.1
+X-KDE-PluginInfo-Website=sourceforge.net
+X-KDE-PluginInfo-Depends=
+X-KDE-PluginInfo-License=GPL
+X-KDE-PluginInfo-EnabledByDefault=true
+
+X-Plasma-HasConfigurationInterface=true
